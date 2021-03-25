@@ -1,1 +1,1 @@
-{"packageDirectories": [{"path": "force-app", "default": true}], "namespace": null, "sourceApiVersion": "50.0"}
+{"packageDirectories": [{"path": "force-app", "default": true}], "sfdcLoginUrl" : "https://uxdeveloper2-dev-ed.my.salesforce.com/","namespace": null, "sourceApiVersion": "50.0"}
