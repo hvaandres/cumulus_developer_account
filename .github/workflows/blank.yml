@@ -1,4 +1,4 @@
-name: Andres
+name: Jest
 on: [push]
 jobs:
   jest:
@@ -19,6 +19,6 @@ jobs:
       - name: Install Packages
         run: |
           yarn install
-      - name: Run Andres Test
+      - name: Run Jest Tests
         run: |
-          cci task run robot -o suites robot/cumulus_dev/tests/create_contact.robot
+          npx lwc-jest
